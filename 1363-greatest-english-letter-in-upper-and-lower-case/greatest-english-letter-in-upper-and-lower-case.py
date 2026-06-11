@@ -3,7 +3,6 @@ class Solution(object):
         alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
         available = []
         greatest = ""
-        i = 0
 
         for letter in alphabet:
             if letter in s and letter.lower() in s:
