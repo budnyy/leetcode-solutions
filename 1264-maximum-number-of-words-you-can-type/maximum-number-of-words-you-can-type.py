@@ -11,8 +11,7 @@ class Solution:
                 if bLetter in word:
                     impos_word = True
                 
-            if impos_word:
-                count -= 1 
-
-            count += 1
+            if not impos_word:
+                count += 1 
+           
         return count
