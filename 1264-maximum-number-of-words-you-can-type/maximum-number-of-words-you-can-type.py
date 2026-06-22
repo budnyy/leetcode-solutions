@@ -6,12 +6,10 @@ class Solution:
 
         for word in words:
             impos_word = False
-
-            for letter in word:
-            
-                for bLetter in brokenLetters:
-                    if letter == bLetter:
-                        impos_word = True
+        
+            for bLetter in brokenLetters:
+                if bLetter in word:
+                    impos_word = True
                 
             if impos_word:
                 count -= 1 
