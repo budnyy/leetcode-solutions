@@ -12,6 +12,3 @@ class Solution:
                     return False
             return True
         return False
-            
-                
-            
